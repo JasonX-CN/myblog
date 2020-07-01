@@ -2,12 +2,12 @@
 nav:
   title: "Clover Tuan"
 
-favicon: ""
+favicon: "https://i.loli.net/2020/07/01/aDxWAv5NOtLMpRI.jpg"
 
 # Custom background
 background:
   color: "#eff0f6"
-  image: "https://i.loli.net/2020/07/01/aDxWAv5NOtLMpRI.jpg"
+  image: ""
 
 # Social media
 social:
