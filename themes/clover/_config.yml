@@ -7,18 +7,14 @@ favicon: ""
 # Custom background
 background:
   color: "#eff0f6"
-  image: ""
+  image: "https://i.loli.net/2020/07/01/aDxWAv5NOtLMpRI.jpg"
 
 # Social media
 social:
-  Dribbble: https://dribbble.com/clovertuan
-  Behance: https://www.behance.net/clovertuan
-  Lofter: http://clovertuan.lofter.com/
-  Instagram: https://www.instagram.com/clovertuan/
-  GitHub: https://github.com/cloverTuan
+  WeChat: ZackVonXavier
 
 # Custom footer
-mail: d.guangying@foxmail.com
+mail: 390294011@qq.com
 copyright: All rights reserved @Clover Tuan
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
