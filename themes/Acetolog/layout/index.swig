@@ -3,10 +3,10 @@
 {% block content %}
     <div class="al_index_background dis_flex_center al_full_cover">
         <div class="al_pos_ab al_letter al_index_background_letter">
-            {{ config.bio|default('Jason's Page')|first|upper }}
+            {{ config.bio|default('A Simple Theme')|first|upper }}
         </div>
         <h2 class="al_index_background_bio">
-            {{ config.bio|default('Jason's Page') }}
+            {{ config.bio|default('A Simple Theme') }}
         </h2>
     </div>
 
@@ -15,7 +15,7 @@
         <div class="al_main_container al_shadow">
             <div class="al_section_container dis_flex_jcenter">
                 <div class="section_header">
-                    RESENT POSTS
+                    LATEST PAGES
                 </div>
             </div>
 
@@ -50,13 +50,12 @@
                             </p>
                         </div>
                         <div class="al_index_post_button_cnt dis_flex">
-                         <a class="al_button al_button_transparent al_index_post_button" href="{{ item.link || item.path }}">
-                                TAP TO READ
-                            </a>
                             <a class="al_button al_button_theme al_index_post_button" href="{{ item.link || item.path }}">
-                                CLICK TO READ
+                                READ ON
                             </a>
-  
+                            <a class="al_button al_button_transparent al_index_post_button" href="//getpocket.com/edit?url={{ config.url + '/' + postURL }}">
+                                READ LATER
+                            </a>
                         </div>
                     </li>
                 {% endfor %}
