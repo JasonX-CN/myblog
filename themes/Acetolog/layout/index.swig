@@ -6,7 +6,7 @@
             {{ config.bio|default('A Simple Theme')|first|upper }}
         </div>
         <h2 class="al_index_background_bio">
-            {{ config.bio|default('A Simple Theme') }}
+            {{ config.bio|default('Jason') }}
         </h2>
     </div>
 
