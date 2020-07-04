@@ -15,7 +15,7 @@
         <div class="al_main_container al_shadow">
             <div class="al_section_container dis_flex_jcenter">
                 <div class="section_header">
-                    LATEST POSTS
+                    RESENT POSTS
                 </div>
             </div>
 
@@ -51,7 +51,7 @@
                         </div>
                         <div class="al_index_post_button_cnt dis_flex">
                             <a class="al_button al_button_theme al_index_post_button" href="{{ item.link || item.path }}">
-                                READ ON
+                                TAP TO READ
                             
                             </a>
                         </div>
