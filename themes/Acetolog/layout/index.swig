@@ -50,12 +50,7 @@
                             </p>
                         </div>
                         <div class="al_index_post_button_cnt dis_flex">
-                            <a class="al_button al_button_transparent al_index_post_button" href="{{ item.link || item.path }}">
-                                TAP TO READ
-                            </a>
-                            <a class="al_button al_button_theme al_index_post_button" href="{{ item.link || item.path }}">
-                                CLICK TO READ
-                            </a>
+                           
                         </div>
                     </li>
                 {% endfor %}
