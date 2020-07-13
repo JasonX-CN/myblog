@@ -48,16 +48,7 @@
                             <p class="al_index_post_excerpt">
                                 {{ item.excerpt|striptags }}
                             </p>
-                        </div>
-                        <div class="al_index_post_button_cnt dis_flex">
-                            <a class="al_button al_button_theme al_index_post_button" href="{{ item.link || item.path }}">
-                                READ ON
-                            </a>
-                            <a class="al_button al_button_transparent al_index_post_button" href="//getpocket.com/edit?url={{ config.url + '/' + postURL }}">
-                                READ LATER
-                            </a>
-                        </div>
-                    </li>
+                        </div>                    
                 {% endfor %}
             </ul>
 
