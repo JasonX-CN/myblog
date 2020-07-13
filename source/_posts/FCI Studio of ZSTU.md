@@ -1,6 +1,6 @@
 ---
-title: My Works
-photos: https://i.loli.net/2020/07/01/ozMJY4vibWP8hXy.jpg
+title: FCI Studio of ZSTU
+photos: 
 tags:
 ---
 
